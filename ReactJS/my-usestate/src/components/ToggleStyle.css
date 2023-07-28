@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+.toggle {
+  width: 100px;
+  height: 50px;
+  padding: 5px;
+  border-radius: 100rem;
+  background-color: #ccc;
+  margin: 25px;
+  cursor: pointer;
+  transition: all 0.5s linear;
+}
+.toggle.active{
+  background-color: red;
+}
+.spinner {
+  width: 40px;
+  height: 40px;
+  border-radius: 100rem;
+  background-color: white;
+  transition: all 0.5s linear;
+}
+
+.spinner.active{
+  transform: translateX(50px);
+}
